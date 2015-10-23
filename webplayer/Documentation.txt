@@ -1,0 +1,36 @@
+The setting of my world is in the savannah. The animals in it are
+zebras, elephants, and leopards.
+
+My steering behaviors are
+- Path following
+- Leader following
+- Arrival
+- Wandering
+- Fleeing
+- Obstacle avoidance
+
+There is one "adult" zebra that path follows to various plants
+around the terrain. The baby zebras then leader follow her around,
+but they are also more concerned about the leopard predators.
+
+The elephants just wander around, avoiding trees/rocks.
+
+The adult zebra path follows, avoiding trees/rocks.
+
+The flock of baby zebra's leader follow their mom, but flee from predors
+as well as avoid trees/rocks.
+
+The flock of predators avoid the big zebra, as well as wanderers, and 
+obstacles such as water/trees/rocks. They seek the closest baby zebra
+to them.
+
+To switch the camera,
+"Z" is the baby zebra's centroid position.
+"L" is the leader.
+"C" is a first person controller that you can walk
+around with.
+
+* In the webplayer, the zebra for some reason stops path following.
+It does that sometimes in the actual unity file too and I have to comment
+out the line of code that makes the y height match the terrain, close unity,
+open it again, and uncomment it.
